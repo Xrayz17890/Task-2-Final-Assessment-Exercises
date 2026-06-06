@@ -1,0 +1,162 @@
+.projects {
+    text-align: center;
+    padding: 40px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skills-container {
+    display: flex;
+    justify-content: flex-start; /* align to left */
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 40px; /* adds space from left */
+}
+
+.project-card {
+    background: rgb(36, 177, 134);
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #1310af;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a51f1b, #393e46);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1725aa, #fffdfd);
+    text-align: center; /* centers text */
+}
+
+/* Center all sections */
+section, header, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar center */
+nav {
+    text-align: center;
+    background: #0a0c8a;
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(252, 252, 252);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0c0a81;
+}
+.hero img {
+    width: 300px;
+    border-radius: 90%;
+    margin-top: 20px;
+}
+body {
+    text-align: center;
+}
+.about {
+    max-width: 700px;
+    margin: auto;              /* centers the block */
+    text-align: center;        /* centers text */
+    padding: 40px;
+    line-height: 1.6;
+}
+/* Images */
+.card img {
+    width: 60px;
+    margin-bottom: 10px;
+    animation: float 2s infinite ease-in-out;
+}
+
+/* Image floating animation */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Progress bar container */
+.bar {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* Progress animation */
+.progress {
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    width: 0;
+    animation: fill 2s forwards;
+}
+
+/* Each skill style */
+.html {
+    width: 90%;
+    background: #e34c26;
+}
+
+.css {
+    width: 85%;
+    background: #264de4;
+}
+
+.js {
+    width: 70%;
+    background: #f0db4f;
+    color: black;
+}
+
+/* Fill animation */
+@keyframes fill {
+    from { width: 0; }
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between images */
+    margin-top: 20px;
+}
+
+.images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* makes circle */
+    border: 4px solid #333;
+}
